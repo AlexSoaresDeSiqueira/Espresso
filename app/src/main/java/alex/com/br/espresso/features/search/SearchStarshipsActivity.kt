@@ -22,6 +22,6 @@ class SearchStarshipsActivity : AppCompatActivity() {
     }
 
     private fun goToDetail() {
-        startActivity(Intent(this, StarshipsDetailActivity::class.java))
+        startActivity(StarshipsDetailActivity.newIntent(this))
     }
 }

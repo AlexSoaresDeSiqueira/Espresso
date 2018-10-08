@@ -1,4 +1,4 @@
-package com.istimple.akee.util.mvp
+package alex.com.br.espresso
 
 interface BasePresenter<T> {
 
