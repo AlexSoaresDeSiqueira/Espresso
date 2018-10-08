@@ -47,8 +47,12 @@ class SearchStarshipsActivityTest {
     @Test
     fun shouldSearchShip() {
 
-        onView(withId(R.id.editTextShip)).perform(typeText("DeathStar"))
+        onView(withId(R.id.editTextShip))
+                .perform(typeText("DeathStar"))
+
         closeSoftKeyboard()
-        onView(withId(R.id.buttonSearch)).perform(click())
+
+        onView(withId(R.id.buttonSearch))
+                .perform(click())
     }
 }
