@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Espresso</string>
+    <string name="title_activity_starships">StarshipsActivity</string>
+    <string name="digite_sua_nave_favorita">Digite o nome da sua nave favorita</string>
+    <string name="ship">Nave</string>
+    <string name="procurar">Procurar</string>
+    <string name="nome">Nome</string>
+    <string name="modelo">Modelo</string>
+    <string name="fabricante">Fabricante</string>
+    <string name="campo_obrigatorio">Campo obrigatório</string>
+</resources>
